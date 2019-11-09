@@ -1,0 +1,40 @@
+.message-to,
+.message-from {
+    padding: 5px 10px;
+    border-radius: 20px;
+    max-width: 40%;
+    word-wrap: break-word;
+    line-height: 24px;
+    margin-top: 12px;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.message-to {
+    background: #E5E5EA;
+    color: black;
+    align-self: flex-start;
+
+    &:before {
+
+    }
+
+    &:after {
+
+    }
+}
+
+
+.message-from {
+    color: white;
+    background: #0B93F6;
+    align-self: flex-end;
+
+    &:before {
+
+    }
+
+    &:after {
+
+    }
+}

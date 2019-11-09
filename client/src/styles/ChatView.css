@@ -1,0 +1,14 @@
+.chat {
+    height: 80vh;
+    width: 80%;
+    max-width: 520px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 12px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.80) 0%, #f1f1f1 100%);
+    background-blend-mode: lighten;
+    color: #ccc;
+    box-shadow: 10px 10px 89px 55px rgba(255,255,255,0.2);
+}
